@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-	background-color: black;
+	background-color: #111111;
 }
 
 body > nav {
@@ -96,39 +96,91 @@ div.our-model-Dropdown > a:last-child {
 }
 
 @media (max-width: 768px) {
-	.carousel-inner .carousel-item > div {
+	div.our-models .carousel-inner .carousel-item > div {
 		display: none;
 	}
-	.carousel-inner .carousel-item > div:first-child {
+	div.our-models .carousel-inner .carousel-item > div:first-child {
 		display: block;
 	}
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
+div.our-models .carousel-inner .carousel-item.active,
+div.our-models .carousel-inner .carousel-item-next,
+div.our-models .carousel-inner .carousel-item-prev {
 	display: flex;
 }
 
 /* display 3 */
 @media (min-width: 768px) {
 	
-	.carousel-inner .carousel-item-right.active,
-	.carousel-inner .carousel-item-next {
+	div.our-models .carousel-inner .carousel-item-right.active,
+	div.our-models .carousel-inner .carousel-item-next {
 	  transform: translateX(33.333%);
 	}
 	
-	.carousel-inner .carousel-item-left.active, 
-	.carousel-inner .carousel-item-prev {
+	div.our-models .carousel-inner .carousel-item-left.active, 
+	div.our-models .carousel-inner .carousel-item-prev {
 	  transform: translateX(-33.333%);
 	}
 }
 
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
+div.our-models .carousel-inner .carousel-item-right,
+div.our-models .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
 
 div.card {
+	background-color: rgb(29, 29, 29);
+	height: 400px;
+	padding: 30px 30px;
+	margin-top: 20px;
+}
+
+h5.card-title {
+	font-size: 30px;
+	font-weight: lighter;
+	color:rgb(141, 141, 141);
+}
+
+div.our-models .card-text {
+	font-size: 15px;
+	height: 15px;
+	font-weight: lighter;
+	color:rgb(141, 141, 141);
+}
+
+div.our-models .our-models-button {
+	display: inline-block;
 	background-color: black;
+	width: 100%;
+	color:white;
+	border:solid 1px white;
+	height:50px;
+	margin-top: 30px;
+}
+
+div.our-models .our-models-button:hover {
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	color:black;
+	height:50px;
+	margin-top: 30px;
+	font-weight: border;
+	transition: 0.5s;
+}
+
+div.main-middle-icon {
+	width: 75%;
+	margin:auto;
+	text-align: center;
+}
+
+img.icon-image {
+	width: 30%;
+}
+
+div.icon-text {
+	color:white;
+	margin-top: 15px;
 }
