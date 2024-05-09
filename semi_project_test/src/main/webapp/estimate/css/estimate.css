@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*
+body{
+	background-color: black;
+	color:white;
+}
+*/
+
+body > div#container{
+	border: solid 1px black;
+}
+
+body > div#category{
+	border: solid 1px yellow;
+}
+
+div.car_select{
+	border: solid 2px red;
+	height: 250px;
+}
