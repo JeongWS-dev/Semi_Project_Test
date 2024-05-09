@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#container {
+	background-color: black;
+}
+
+#container > div > h1{
+	/* border: solid 1px red; */
+	text-align: center;
+}
+#container > div > p{
+/* border: solid 1px red; */
+	text-align: center;
+	color:white;
+}
+#container > div{
+	color:white;
+}
+#container > div > div > div.image_1 > div{
+	/* border: solid 1px red; */
+	background-image: url("images/genesis-kr-test-drive-main-genesis-gv80-24my-large.jpg");
+	width: 730px;
+	height: 500px;
+}
+#container > div > div > div.image_2 > div{
+	background-image: url("images/genesis-kr-main-genesis0space-desktop-960x540-ko.jpg");
+	width: 730px;
+	height: 500px;
+
+}
+#container > div > div{
+	/* border: solid 1px red; */
+	text-align: center;
+}
+#container > div > div > div.image_1,
+#container > div > div > div.image_2{
+	display: inline-block;
+	margin: 2%;
+}
