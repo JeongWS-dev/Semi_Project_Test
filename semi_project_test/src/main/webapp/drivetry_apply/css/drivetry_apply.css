@@ -18,7 +18,7 @@
 #container > div > div > div.image_1 > div{
 	/* border: solid 1px red; */
 	position: relative;
-	background-image: url("images/genesis-kr-test-drive-main-genesis-gv80-24my-large.jpg");
+	background-image: url("../../images/genesis-kr-test-drive-main-genesis-gv80-24my-large.jpg");
 	width: 830px;
 	height: 450px;
 	background-position: center;
